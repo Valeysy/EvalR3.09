@@ -1,6 +1,10 @@
 "https://github.com/Valeysy/EvalR3.09"
 
-
+import socket
+import threading
+from PyQt6.QtWidgets import QApplication, QWidget, QLineEdit, QPushButton, QLabel, QTextEdit, QGridLayout
+import socket
+import threading
 import socket
 import threading
 
@@ -60,3 +64,9 @@ class GestionServeur:
         for thread in self.threads_clients:
             thread.join()
         self.ui.afficher_message("Le serveur est arrêté.")
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    fenetre = ApplicationServeur()
+    fenetre.show()
+    sys.exit(app.exec())
