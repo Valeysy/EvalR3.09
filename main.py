@@ -1,3 +1,8 @@
+"https://github.com/Valeysy/EvalR3.09"
+
+"Pour démarrer sur mac, faire : python3 main.py"
+
+
 from PyQt6.QtWidgets import QApplication
 from gui import ApplicationServeur
 import sys
