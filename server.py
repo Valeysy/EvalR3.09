@@ -1,12 +1,10 @@
 "https://github.com/Valeysy/EvalR3.09"
 
+
 import socket
 import threading
 from PyQt6.QtWidgets import QApplication, QWidget, QLineEdit, QPushButton, QLabel, QTextEdit, QGridLayout
-import socket
-import threading
-import socket
-import threading
+import sys
 
 class GestionServeur:
     
